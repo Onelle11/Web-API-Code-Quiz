@@ -34,6 +34,13 @@ var quizQuestions = [
 function showQuestions(questionIndex) {
     questionsBox.innerHTML = "";
 
+    //what happens after the quiz
+    if (questionIndex > quizQuestions.length - 1) {
+        complete.style.display = "block";
+        clearInterval(ticker);
+        return;
+    }
+
     var question = quizQuestions[questionIndex];
 
     var questionP = document.createElement('p');
@@ -73,13 +80,6 @@ function showQuestions(questionIndex) {
     answerDiv.appendChild(answerBtn);
     }
     questionsBox.appendChild(answerDiv);
-
-    //what happens after the quiz
-    if (questionIndex > quizQuestions.length - 1) {
-        complete.style.display = "block";
-        clearInterval(ticker);
-        return;
-    }
 }
 
 function startQuiz() {
@@ -101,7 +101,7 @@ function isCorrectAnswerClick(answerIndex, correctAnswer) {
 }
 
 function toMMSS(time) {
-    var sec_num = parseInt(time, 10); // don't forget the second param
+    var sec_num = parseInt(time, 10);
     var minutes = Math.floor(sec_num / 60);
     var seconds = sec_num - minutes * 60;
   

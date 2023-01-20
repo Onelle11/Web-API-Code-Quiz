@@ -4,20 +4,67 @@
     margin: 0;
 }
 
-.content {
-    display: block;
-}
-
 .start-btn {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    margin-top: 250px;
+    background-color: purple;
+    color: white;
+    padding: 30px;
+    border-radius: 32px;
+    font-size: 20px;
+}
 
+.start-btn:hover {
+    cursor: pointer;
+    background-color: rgb(255, 137, 255);
 }
 
 .quiz-Intro {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 70px;
+    padding: 100px;
+    margin: 100px;
+   
+}
 
+.clockTimer {
+    display: flex;
+    margin: 50px 50px 10px 50px;
+    font-size: 60px;
+    color: purple;
+}
+
+.questionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    ;
+}
+
+.answer-btn {
+    background-color: purple;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+    padding: 10px;   
+}
+
+.answer-btn:hover {
+    cursor: pointer;
+    background-color:  rgb(255, 137, 255);
+}
+
+.completeQuiz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
 }
