@@ -5,5 +5,8 @@ This application is a timed coding quiz with multiple choice questions.
 A coding quiz challenge.
 
 ##Screenshot
+<div text-align="center">
+<img src="./assets/images/Quiz_Challenge_Picture.png" alt="Quiz">
+
 
 ##Deployed Site
