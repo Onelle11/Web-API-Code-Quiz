@@ -1,13 +1,13 @@
 # Web-API-Code-Quiz
 This application is a timed coding quiz with multiple choice questions.
 
-##Overview
+## Overview
 A coding quiz challenge.
 
-##Screenshot
+## Screenshot
 <div text-align="center">
 <img src="./assets/images/Quiz_Challenge_Picture.png" alt="Quiz">
 
 
-##Deployed Site
+## Deployed Site
 https://onelle11.github.io/Web-API-Code-Quiz/
